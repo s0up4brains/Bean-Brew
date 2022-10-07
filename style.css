@@ -33,30 +33,26 @@ color: white;
 /*TESTEMONIALS
 
 /*FOOTER*/
-<footer id="footer">
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #a84c24;
+  color: white;
+  text-align: left;
+}
 
-            <a href="./about.html">About</a>
+
+
+<div class="footer">
+  <p>Footer</p>
+</div>
 
 
 
-            </div>
-
-        </div>
-
-
-
-    
-
-    <div class="footer">
-
-        <div class="relative">
-
-        <img src="images/logo.png" alt="Bean and Brew company logo">
-
-        <p>Footer</p>
-
-        </div>
-
-    </div>
-
-</footer>
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #24cae3;
+}
