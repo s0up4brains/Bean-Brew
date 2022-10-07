@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+/*TOP LEFT HEADER*/
+.heading{
+display: flex;
+justify-content: flex-start;
+font-size: 30px;
+background: #A14A21;
+
+}
+.header-text{
+color: white;
+    margin: 0px 50px 0px 50px;
+
+}
+.coffee-circle{
+    position: center center;
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+
+}
+
+
+/*BANNER RIGHT*/
+.side-banner-img{
+
+    padding:10px;
+}
+/*TESTEMONIALS
+
+/*FOOTER*/
